@@ -1,0 +1,312 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagenes/fondopag.jpg);
+    background-attachment: fixed;
+    padding: 5px 70px 0px 70px;
+}
+
+.titulo1{
+    display: inline-flex;
+    text-align: center;
+    position: absolute;
+    bottom: 600px;
+    margin-left: 0.3cm;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+.logo{
+    border: 0.3px solid whitesmoke;
+    background-color: #333c87;
+    
+}
+
+.menu{
+    display: inline-flex;
+    list-style: none;
+    position: absolute;
+    left: 500px;
+    
+    
+}
+
+.barra{
+    padding: 0px 50px 0px 50px;
+    
+    
+}
+
+.barra a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+    
+}
+
+.barra:hover{
+    background-color: #f5f5f53a;
+}
+
+ /*.redes{ 
+    padding: 2px 6px 2px 6px;
+    position: fixed;
+    right: 0;*/
+
+.banner img{
+        padding: 10px 55px 0px 122px;
+}
+
+/*.circle{
+  display: inline-block;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50%;
+  
+
+}
+    
+.circle img{   
+  height: 100%;
+  margin-left: -60px;
+  width: 200px;
+        
+}*/
+
+/*.circle{
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: 12px;
+    position: absolute;
+    left: 3cm;
+    
+}
+
+.circle img{
+    height: 100%;
+    width: 115px;
+    margin-left: -32%;
+   
+}
+
+
+
+.messi{
+    color: whitesmoke;
+    padding: 0px 50px 100px 200px;
+    position: absolute;
+    bottom: 6.7cm;
+    left: 3.2cm;
+}
+
+.circle2{
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 320px;
+    margin-top: 12px;
+    position: absolute;
+    top:  6.2cm;
+    left: 5.1cm;
+    
+}
+
+.circle2 img{
+    height: 100%;
+    width: 115px;
+    margin-left: -42%;
+}
+
+.iniesta{
+    color: whitesmoke;
+    position: absolute;
+    left: 16cm;
+    top: 6cm;
+}
+
+.circle3{
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 320px;
+    margin-top: 12px;
+    position: absolute;
+    top:  6.2cm;
+    left: 13cm;
+}
+
+.circle3 img{
+    height: 100%;
+    width: 115px;
+    margin-left: -18%; 
+}
+
+.luis{
+    color: whitesmoke;
+    position: absolute;
+    left: 24.2cm;
+    top: 6cm; 
+}*/
+
+.containerc{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    margin-top: 1cm;
+}
+
+.containerc .circle img{
+    overflow: hidden;
+    width: 80px;
+    height: 75px;
+    border-radius: 50%;
+    
+    
+}
+
+.containerc .circle p{
+    color: whitesmoke;
+  
+}
+
+.containerc .circle{
+    width: 250px;
+    height: 300px;
+    
+}
+
+.circle .messi1:hover{
+    opacity: 0;
+}
+
+.messi1{
+    position: absolute;
+    left: 7.95cm;
+}
+
+.circle .iniesta1:hover{
+    opacity: 0;
+}
+
+.iniesta1{
+    position: absolute;
+    left: 14.55cm;
+}
+
+
+.circle .suarez1:hover{
+    opacity: 0;
+}
+
+.circle .suarez1{
+    position: absolute;
+    left: 21.17cm;
+}
+
+.titulo2{
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 150px;
+}
+
+.subtitulo{
+    color: whitesmoke;
+    
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    bottom: 2cm;
+    left: 16cm;
+    font-size: 15px;
+}
+
+.primeralista{
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+.primeralista li{
+    padding: 2px 60px 2px 95px;
+
+}
+
+.primeralista p{
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.segundalista{
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+.segundalista li{
+    padding: 50px 60px 2px 90px;
+}
+
+.segundalista p{
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.video{
+    padding: 20px 90px 10px 250px;
+}
+
+.titulo3{
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 45px;
+}
+
+footer{
+    background-color: #1b1b44;
+    margin-top: 7cm;
+    
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.map p{
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    
+}
+
+.about p{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.about h4{
+    color: whitesmoke;
+}
+
+.redes p{
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
